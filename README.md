@@ -1,6 +1,6 @@
 # Neovim configuration
 
-A Lua-based Neovim setup with LSP support, completion and snippets, Telescope search, Tree-sitter highlighting, Neogit, and OpenCode integration. [lazy.nvim](https://github.com/folke/lazy.nvim) manages plugins and bootstraps itself on first launch; `lazy-lock.json` records plugin versions. The entry point is `init.lua`, with editor settings and personal mappings in `lua/dependencies/` and plugin specifications in `lua/plugins/`.
+Neovim setup with LSP support, completion and snippets, Telescope search, Tree-sitter highlighting, Neogit, and OpenCode integration. [lazy.nvim](https://github.com/folke/lazy.nvim) manages plugins and bootstraps itself on first launch; `lazy-lock.json` records plugin versions. The entry point is `init.lua`, with editor settings and personal mappings in `lua/dependencies/` and plugin specifications in `lua/plugins/`.
 
 To use it, place the repository at `~/.config/nvim` and start `nvim`. You will need Git for plugin installation; [ripgrep](https://github.com/BurntSushi/ripgrep) is needed for Telescope live grep. Mason downloads selected language servers and tools, and Tree-sitter installs parsers. OpenCode actions require a working OpenCode installation. Run `:Lazy` to inspect plugins and `:Mason` to inspect installed tools.
 
